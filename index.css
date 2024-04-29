@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.lara-section {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ff69b3;
+}
+
+.neo-section {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1ba8f0;
+}
+
+.header {
+  border: 2px black solid;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.interests {
+  border: black 2px solid;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.achievements {
+  border: black 2px solid;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.schools {
+  border: black 2px solid;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.my-thoughts {
+  border: black 2px solid;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.contact-me {
+    border: black 2px solid;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-upper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact-upper div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.message-container textarea {
+  width: 100%;
+}
+
+.submit-container input[type="submit"] {
+  width: 100%;
+}
+
+.schools {
+  margin-bottom: 20px;
+}
+
+.schools h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.schools ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.schools li {
+  margin-bottom: 10px;
+  flex: 0 0 45%;
+  margin-bottom: 10px;
+}
+
+.schools img {
+  width: 70px;
+  height: auto;
+  display: block;
+  margin-bottom: 5px;
+}
